@@ -1,0 +1,65 @@
+.Carousel {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.carouselImg {
+    width: 100%;
+    height: 415px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+.arrows {
+    font-size: 79px;
+    position: absolute;
+    z-index: 10;
+    color: white;
+}
+
+.left {
+    left: 30px;
+}
+
+.right {
+    right: 30px;
+}
+
+.counter {
+    position: absolute;
+    bottom: 30px;
+    color: white;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 767.98px) {
+    .Carousel {
+        margin-top: 10px;
+    }
+
+    .carouselImg {
+        height: 255px;
+        margin-bottom: 10px;
+    }
+
+    .arrows {
+        font-size: 19px;
+    }
+
+    .left {
+        left: 17px;
+    }
+
+    .right {
+        right: 17px;
+    }
+
+    .counter {
+        display: none;
+    }
+}

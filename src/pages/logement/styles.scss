@@ -1,0 +1,139 @@
+.logementInfoContainer {
+    padding: 0 20px;
+}
+
+.logementInfo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+    .infoLeft {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        h1 {
+            margin-top: 0;
+            margin-bottom: 0;
+            color: #FF6060;
+        }
+
+        p {
+            margin: 5px 0 10px 0;
+        }
+    }
+}
+
+.tags {
+    display: flex;
+}
+
+.tag {
+    height: 25px;
+    border-radius: 10px;
+    background-color: #FF6060;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    padding: 0 10px;
+}
+
+.hostInformation {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: flex-end;
+
+    .hostName {
+        color: #FF6060;
+        font-size: 18px;
+        text-align: right;
+    }
+
+    p {
+        padding: 0;
+        margin: 0;
+        color: #FF6060;
+        font-size: 18px;
+    }
+}
+
+.hostPicture {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    margin-left: 10px;
+}
+
+.collapseContainer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.collapseItem {
+    width: 49%;
+}
+
+@media screen and (max-width: 767.98px) {
+    .logementInfoContainer {
+        padding: 0 20px 0 20px;
+    }
+
+    .logementInfo {
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+
+        .infoLeft {
+            width: 100%;
+
+            h1 {
+                font-size: 18px;
+
+            }
+
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+
+    .tag {
+        height: 18px;
+        font-size: 10px;
+    }
+
+    .hostAndRating {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        width: 100%;
+        margin-top: 10px;
+
+        .hostInformation {
+            margin-bottom: 0;
+
+            p {
+                font-size: 12px;
+            }
+        }
+
+    }
+
+    .hostPicture {
+        width: 32px;
+        height: 32px;
+    }
+
+    .collapseContainer {
+        flex-wrap: wrap;
+    }
+
+    .collapseItem {
+        width: 100%;
+    }
+}

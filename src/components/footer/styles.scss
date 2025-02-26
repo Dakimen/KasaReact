@@ -1,0 +1,21 @@
+img {
+    width: 100%;
+}
+
+.footerDesk {
+    display: block;
+}
+
+.footerMobile {
+    display: none;
+}
+
+@media screen and (max-width: 767.98px) {
+    .footerDesk {
+        display: none;
+    }
+
+    .footerMobile {
+        display: block;
+    }
+}

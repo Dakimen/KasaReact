@@ -1,0 +1,52 @@
+.errorPage {
+    padding: 0 20px;
+}
+
+.error {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    color: #FF6060;
+
+    span {
+        font-size: 288px;
+        font-weight: 700;
+    }
+
+    p {
+        font-size: 36px;
+    }
+}
+
+.retourAccueil {
+    display: flex;
+    justify-content: center;
+    padding: 70px 0;
+    font-size: 18px;
+    color: black;
+
+    a:visited {
+        color: black;
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+
+    .error {
+        span {
+            font-size: 96px;
+            margin: 100px 0;
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 100px;
+        }
+    }
+
+    .retourAccueil {
+        font-size: 14px;
+        margin-bottom: 50px;
+    }
+}

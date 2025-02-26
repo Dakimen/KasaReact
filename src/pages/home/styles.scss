@@ -1,0 +1,19 @@
+.home {
+    padding: 0 20px;
+}
+
+.logements {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F6F6F6;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+@media screen and (max-width: 767.98px) {
+
+    .logements {
+        padding: 0;
+        background-color: transparent;
+    }
+}
