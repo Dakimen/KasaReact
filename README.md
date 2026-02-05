@@ -1,8 +1,34 @@
-# React + Vite
+# KasaReact
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+KasaReact is a frontend web application built with React and Vite that serves as a clean FrontEnd application.
+It was built as a study project for a fictional leasing company Kasa.
 
-Currently, two official plugins are available:
+## Features
+Modern Frontend Stack
+- React — for building interactive user interface components.
+- Vite — ultra-fast build tool that provides instant server start and lightning-fast hot module replacement.
+- ESLint — linting rules included to enforce consistent code quality.
+- SCSS — support for structured and maintainable styling.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Launching the project
+
+To launch this project locally:
+
+1. Clone the repository
+```
+git clone https://github.com/Dakimen/KasaReact.git
+cd KasaReact
+```
+2. Install dependencies
+```
+npm install
+```
+
+3. Start the development server
+```
+npm run dev
+```
+4. Open in your browser
+
+## Summary
+KasaReact was built as a leasing website for a fictional company Kasa as a demonstration of React/Vite/SCSS skills.
